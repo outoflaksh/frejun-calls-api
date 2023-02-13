@@ -11,6 +11,8 @@ This Calls API helps create and retrieve calls.
 
 ## Usage
 
+Base URL: `https://calls-api-laksh.onrender.com/`
+
 ### Endpoint: `GET /`
 *Index page*
 
