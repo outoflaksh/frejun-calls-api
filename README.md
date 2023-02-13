@@ -86,3 +86,25 @@ Response body:
     }
 ```
 
+## Installation
+
+To get a local copy up and running, do the following steps:
+
+1. Make sure to have Python>=3.7 installed on your system.
+2. Clone the repo
+   
+   `git clone git@github.com:outoflaksh/frejun-calls-api.git`
+3. Change directory into the cloned repository.
+4. Create a Python Virtual Environment to install the dependencies.
+   
+   `python3 -m venv venv`
+5. Activate the environment & install the dependencies.
+   
+   `pip3 install -r requirements.txt`
+6. Run the development server.
+   
+   `uvicorn src.api:app --reload`
+7. Run the production server (Requires a Unix-based OS).
+   
+   `chmod +x entrypoint.sh && ./entrypoint.sh`
+   
