@@ -5,6 +5,13 @@ from .models import CallInfo
 app = FastAPI()
 
 
+@app.get("/")
+def read_index():
+    return {
+        "detail": "This is the index page.",
+    }
+
+
 @app.get("/call-report")
 def read_calls(phone: str):
     try:
